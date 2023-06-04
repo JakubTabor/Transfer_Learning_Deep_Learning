@@ -10,3 +10,4 @@ I gonna use pretrained model to use it on my data
 # Now I gonna download tensorflow dataset using "keras.utils.get_file", origin will be url of file and I gonna save it in directory
 # Then I gonna prepare my data first creating empty list for labels, then I open the file and put it into my list 
 # And I check predictions from my model on the new dataset, so I take my list and check predicted label index 
+# Then I gonna download flower images, so I use "keras.utils.get_file" on "dataset url", unzip it and store in directory 
