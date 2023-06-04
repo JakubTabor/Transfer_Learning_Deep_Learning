@@ -16,3 +16,4 @@ I gonna use pretrained model to use it on my data
 # Now I check the length of the list to see how many images I have and then I create list of roses images
 # I use "Image" to open rose image of index[1] and I also check tulips by creating list of them and showing one image 
 # I organize first lists of my images and then their indexes into numerical values and check first rose image 
+# Now I use "cv2.imread" of first image of rose to check the shape of image, I need to resize and scale my image 
