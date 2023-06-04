@@ -8,3 +8,4 @@ I gonna use pretrained model to use it on my data
 # I gonna check if everything is working good with my model, so I use my model to predict "gold_fish" variable in new shape and check results
 # And "numpy argmax" return me index of prediction
 # Now I gonna download tensorflow dataset using "keras.utils.get_file", origin will be url of file and I gonna save it in directory
+# Then I gonna prepare my data first creating empty list for labels, then I open the file and put it into my list 
