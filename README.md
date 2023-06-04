@@ -14,3 +14,4 @@ I gonna use pretrained model to use it on my data
 # Then I check if it is saved and I can import "pathlib" to convert my data using "pathlib.Path" on my dataset it is very useful
 # I put my directory into a list and use "pattern technique glob" to look at first five images
 # Now I check the length of the list to see how many images I have and then I create list of roses images
+# I use "Image" to open rose image of index[1] and I also check tulips by creating list of them and showing one image 
