@@ -7,3 +7,4 @@ I gonna use pretrained model to use it on my data
 # I also gonna change shape using "numpy newaxis" and when I check new shape it show one more dimension
 # I gonna check if everything is working good with my model, so I use my model to predict "gold_fish" variable in new shape and check results
 # And "numpy argmax" return me index of prediction
+# Now I gonna download tensorflow dataset using "keras.utils.get_file", origin will be url of file and I gonna save it in directory
