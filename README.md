@@ -11,4 +11,5 @@ I gonna use pretrained model to use it on my data
 # Then I gonna prepare my data first creating empty list for labels, then I open the file and put it into my list 
 # And I check predictions from my model on the new dataset, so I take my list and check predicted label index 
 # Then I gonna download flower images, so I use "keras.utils.get_file" on "dataset url", unzip it and store in directory 
-# Then I check if it is saved and I can import "pathlib" to convert my data using "pathlib.Path" on my dataset it is  very useful
+# Then I check if it is saved and I can import "pathlib" to convert my data using "pathlib.Path" on my dataset it is very useful
+# I put my directory into a list and use "pattern technique glob" to look at first five images
