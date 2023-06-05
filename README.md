@@ -17,3 +17,4 @@ I gonna use pretrained model to use it on my data
 # I use "Image" to open rose image of index[1] and I also check tulips by creating list of them and showing one image 
 # I organize first lists of my images and then their indexes into numerical values and check first rose image 
 # Now I use "cv2.imread" of first image of rose to check the shape of image, I need to resize and scale my image 
+# So I use "cv2" and resize method "(224,224)" this will be new shape of my image, now I gonna do this on all my images 
