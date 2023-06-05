@@ -18,3 +18,4 @@ I gonna use pretrained model to use it on my data
 # I organize first lists of my images and then their indexes into numerical values and check first rose image 
 # Now I use "cv2.imread" of first image of rose to check the shape of image, I need to resize and scale my image 
 # So I use "cv2" and resize method "(224,224)" this will be new shape of my image, now I gonna do this on all my images 
+# I create two empth lists, one for resized images and secound for flower labels of flower names
