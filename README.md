@@ -22,4 +22,4 @@ I gonna use pretrained model to use it on my data
 # Then i make for loop for flower name and image in my flower dictionary and I do it for every image 
 # I gonna use method "imread from cv2" on image variable and store it as img, then I use resize mthod on that img variable and give shape (224,224)
 # Now in first list will append resized images and in the second labels of this images I change this list into numpy arrays and store as X and y
-# 
+# Next I can import "train_test_split" and get train and test set I also now scale my images "X_train / 255 and X_test / 255"
