@@ -20,3 +20,4 @@ I gonna use pretrained model to use it on my data
 # So I use "cv2" and resize method "(224,224)" this will be new shape of my image, now I gonna do this on all my images 
 # I create two empth lists, one for resized images and secound for flower labels of flower names
 # Then i make for loop for flower name and image in my flower dictionary and I do it for every image 
+# I gonna use method "imread from cv2" on image variable and store it as img, then I use resize mthod on that img variable and give shape (224,224)
