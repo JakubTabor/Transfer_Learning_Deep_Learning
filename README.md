@@ -24,4 +24,4 @@ I gonna use pretrained model to use it on my data
 # Now in first list will append resized images and in the second labels of this images I change this list into numpy arrays and store as X and y
 # Next I can import "train_test_split" and get train and test set I also now scale my images "X_train / 255 and X_test / 255"
 # I check the shape and its all right, now I gonna show thre images, then I use my model to get predictions on this images and get label of prediction
-# 
+# Now I get url of pretrained model, set one layer and put shape of it, "trainable = False" means that it will be not trained 
