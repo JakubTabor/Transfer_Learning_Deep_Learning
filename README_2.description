@@ -1,2 +1,3 @@
 This is deeper description of my transfer learning model, with more analyze and plot graphs
 # First I load my data like previous, I save url, then get file with flower photos, save it in directory and unzip 
+# Then I import pathlib and change my data using "pathlib.Path", now its ready for operations
