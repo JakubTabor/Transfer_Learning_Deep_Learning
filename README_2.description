@@ -3,3 +3,4 @@ This is deeper description of my transfer learning model, with more analyze and 
 # Then I import pathlib and change my data using "pathlib.Path", now its ready for operations
 # Next I sort my data, I create one dictionary for flower photos and change all images in one category into list 
 # Now I create dictionary for labels of my flowers types, so I assign number for every type
+# Then I call my object to check if everything works good and now its time to resize my images
