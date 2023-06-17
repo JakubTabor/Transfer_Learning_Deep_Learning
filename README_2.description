@@ -5,3 +5,4 @@ This is deeper description of my transfer learning model, with more analyze and 
 # Now I create dictionary for labels of my flowers types, so I assign number for every type
 # Then I call my object to check if everything works good and now its time to resize my images
 # Now I create function which task is to get acces to images in my dict and then resize every image and append ready images and their labels into lists
+# So first i create two lists, then make for loop on flower names and images in my dictionary with acces to items 
