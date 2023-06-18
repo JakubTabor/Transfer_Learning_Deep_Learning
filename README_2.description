@@ -9,3 +9,4 @@ This is deeper description of my transfer learning model, with more analyze and 
 # I use "cv2.imread" to get access to images and save this operation as "img"
 # Then I use "cv2.resize" and put "in variable" and then new sage of my all images
 # And I fill my two lists with my images of new size and their labels, I change this list into numpy array
+# Now when my data is preprocessed i can "train_test_split" and get train and test set
