@@ -13,5 +13,6 @@ This is deeper description of my transfer learning model, with more analyze and 
 # I also scale my X_train and X_test to use it in training and evaluation 
 # I plot three first images to get idea of my data, previous resize them 
 # I check shape of image, it will be input shape in my model, and also check the shape after flattening, looks huge
-# Now I gonna build model with keras Sequential, so I start with passig first Convolutinal 2D layer 
+# Now I gonna build model with keras Sequential, so I start with passing first Convolutional 2D layer
 # I set number of filters, so feature detectors at 32, then "kernel_size " will be 3 by 3, activation will be relu and I pass "IMAGE_SHAPE" 
+# And add additional third dimension and now I have shape of image, then I use "MaxPooling2D" after layer to reduce computation
