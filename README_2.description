@@ -13,3 +13,4 @@ This is deeper description of my transfer learning model, with more analyze and 
 # I also scale my X_train and X_test to use it in training and evaluation 
 # I plot three first images to get idea of my data, previous resize them 
 # I check shape of image, it will be input shape in my model, and also check the shape after flattening, looks huge
+# Now I gonna build model with keras Sequential, so I start with passig first Convolutinal 2D layer 
