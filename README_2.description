@@ -18,3 +18,4 @@ This is deeper description of my transfer learning model, with more analyze and 
 # And add additional third dimension and now I have shape of image, then I use "MaxPooling2D" after layer to reduce computation
 # It gonna take  the maximum value over an input window
 # Then I pass another Convolutional 2D layer, this time with 64 filter detectors, number of filters is hyperparameter
+# And i pass pull layer also after this Conv2D layer, then I flatten all convolutional layers to fit into shape of my neural network
