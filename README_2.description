@@ -24,4 +24,5 @@ This is deeper description of my transfer learning model, with more analyze and 
 # I put last Dense layer with 5 neurons, because I have 5 classes and activation sigmoid 
 # Now I can compile my model, with optimizer as adam, loss as "sparse_categorical_crossentropy" because my output is direct value
 # If i convert it into categorical i use "categorical_crossentropy"
-#I want to plot later performance of my model, so I save training process as history and add additional "validation_split" to see it during the training
+# I want to plot later performance of my model, so I save training process as history and add additional "validation_split" to see it during the training
+# My data is complicated and I don't use data augmentation so i get 0.63 which is still not that bad 
