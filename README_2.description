@@ -21,3 +21,4 @@ This is deeper description of my transfer learning model, with more analyze and 
 # And i pass pull layer also after this Conv2D layer, then I flatten all convolutional layers to fit into shape of my neural network
 # After flattening i pass two Dense layers, I don't need to set big number of neurons because my convolutional layers, will do much of the work
 # And I add Dropout layers after every Dense layer for better final accuracy, it will drop pass value of neurons 
+# I put last Dense layer with 5 neurons, because I have 5 classes and activation sigmoid 
