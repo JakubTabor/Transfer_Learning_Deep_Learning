@@ -19,3 +19,4 @@ This is deeper description of my transfer learning model, with more analyze and 
 # It gonna take  the maximum value over an input window
 # Then I pass another Convolutional 2D layer, this time with 64 filter detectors, number of filters is hyperparameter
 # And i pass pull layer also after this Conv2D layer, then I flatten all convolutional layers to fit into shape of my neural network
+# After flattening i pass two Dense layers, I don't need to set big number of neurons because my convolutional layers, will do much of the work
