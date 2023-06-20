@@ -22,3 +22,4 @@ This is deeper description of my transfer learning model, with more analyze and 
 # After flattening i pass two Dense layers, I don't need to set big number of neurons because my convolutional layers, will do much of the work
 # And I add Dropout layers after every Dense layer for better final accuracy, it will drop pass value of neurons 
 # I put last Dense layer with 5 neurons, because I have 5 classes and activation sigmoid 
+# Now I can compile my model, with optimizer as adam, loss as "sparse_categorical_crossentropy" because my output is direct value
