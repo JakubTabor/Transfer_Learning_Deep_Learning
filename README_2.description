@@ -26,4 +26,4 @@ This is deeper description of my transfer learning model, with more analyze and 
 # If i convert it into categorical i use "categorical_crossentropy"
 # I want to plot later performance of my model, so I save training process as history and add additional "validation_split" to see it during the training
 # My data is complicated and I don't use data augmentation so i get after evaluation 0.63 which is still not that bad 
-# 
+# And I save model evaluation as scores, I also print with a pretty way using metrics and model score is percents 
