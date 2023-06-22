@@ -31,3 +31,4 @@ This is deeper description of my transfer learning model, with more analyze and 
 # First i plot accuracy during training and accuracy growth during testing my model performance
 # And look how my accuracy inprove with each epoch 
 # I also plot loss of my model, during training and testing, I see downward trend with each epoch, so its good
+# My model its not perfect, but we can notice the right trend on the graph
