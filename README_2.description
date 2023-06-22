@@ -29,3 +29,4 @@ This is deeper description of my transfer learning model, with more analyze and 
 # And I save model evaluation as scores, I also print with a pretty way using metrics and model score is percents 
 # Then I print history to check what parameters i can plot on graph
 # First i plot accuracy during training and accuracy growth during testing my model performance
+# And look how my accuracy inprove with each epoch 
