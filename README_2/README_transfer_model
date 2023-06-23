@@ -2,3 +2,4 @@
 # Then i use "hub.KerasLayer" and put inside first my model, then the shape and disable the training, so I froze it during the training
 # I save it as "pretrained_model_without_top_layer" and I gonna use it in keras model  
 # Now I gonna create keras model to train it on my flowers dataset, with help of pretrained model 
+# So first i stop number of classes as variable, then I create keras model and put as a layer "pretrained_model_without_top_layer"
