@@ -1,3 +1,4 @@
+Now I gonna describe i details how function transfer model
 # First i load pretrained model and save it as "feature_extractor_model"
 # Then i use "hub.KerasLayer" and put inside first my model, then the shape and disable the training, so I froze it during the training
 # I save it as "pretrained_model_without_top_layer" and I gonna use it in keras model  
