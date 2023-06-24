@@ -5,3 +5,4 @@ Now I gonna describe i details how function transfer model
 # Now I gonna create keras model to train it on my flowers dataset, with help of pretrained model 
 # So first i stop number of classes as variable, then I create keras model and put as a layer "pretrained_model_without_top_layer"
 # Then I put also Dense layer with number of classes and look at summary of this model 
+#We can see that the transfer model was trained on over 2 000 000 elements, so we can expect that it can handle the task very good
