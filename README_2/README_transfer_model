@@ -7,3 +7,4 @@ Now I gonna describe i details how function transfer model
 # Then I put also Dense layer with number of classes and look at summary of this model 
 # We can see that the transfer model was trained on over 2 000 000 elements, so we can expect that it can handle the task very good
 # We can also see that in summary there are Trainable and Non-trainable params, it means that froze of layer works 
+# And our data for training include 6,405 elements
