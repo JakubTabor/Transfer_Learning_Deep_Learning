@@ -8,4 +8,5 @@ Now I gonna describe i details how function transfer model
 # We can see that the transfer model was trained on over 2 000 000 elements, so we can expect that it can handle the task very good
 # We can also see that in summary there are Trainable and Non-trainable params, it means that froze of layer works 
 # And our data for training include 6,405 elements
-# Now I compile my model with optimezer as adam, then my loss will be "SparseCategoricalCrossentropy" and metrics in accuracy
+# Now I compile my model with optimizer as adam, then my loss will be "SparseCategoricalCrossentropy" and metrics in accuracy
+# Then I train my model and set number of epochs at 5, I save history of my training as "history 2" to plot it later
