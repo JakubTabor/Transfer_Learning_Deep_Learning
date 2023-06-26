@@ -14,3 +14,4 @@ Now I gonna describe i details how function transfer model
 # And my model is very simple, I don't need to build model with many layers to get nice accuracy
 # After evaluation I get accuracy 0.88, which is very good, I print it with a pretty way
 # Then I print keys to see what I can plot on graph 
+# And I plot first accuracy of my model, I see growing trend which is a good sign 
