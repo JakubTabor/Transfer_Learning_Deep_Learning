@@ -12,3 +12,4 @@ Now I gonna describe i details how function transfer model
 # Then I train my model and set number of epochs at 5, I save history of my training as "history 2" to plot it later
 # I can see that perforamnce of my model is very good, with five epochs i get very good accuracy
 # And my model is very simple, I don't need to build model with many layers to get nice accuracy
+#After evaluation I get accuracy 0.88, which is very good, I print it with a pretty way
