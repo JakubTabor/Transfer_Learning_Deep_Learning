@@ -15,3 +15,4 @@ Now I gonna describe i details how function transfer model
 # After evaluation I get accuracy 0.88, which is very good, I print it with a pretty way
 # Then I print keys to see what I can plot on graph 
 # And I plot first accuracy of my model, I see growing trend which is a good sign 
+# Then I plot loss history during training and testing and see downward trend, so everything is alright
