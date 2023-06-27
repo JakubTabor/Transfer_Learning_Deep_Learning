@@ -17,3 +17,4 @@ Now I gonna describe i details how function transfer model
 # And I plot first accuracy of my model, I see growing trend which is a good sign 
 # Then I plot loss history during training and testing and see downward trend, so everything is alright
 # I check also some predictions, previously converting predicted numbers into max. arguments
+# Transfer model perform so good in comparison with my previous model which was much more complicated
