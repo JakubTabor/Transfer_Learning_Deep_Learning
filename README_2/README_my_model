@@ -1,14 +1,18 @@
 This is deeper description of my transfer learning model, with more analyze and plot graphs
+
 # First I load my data like previous, I save url, then get file with flower photos, save it in directory and unzip 
 # Then I import pathlib and change my data using "pathlib.Path", now its ready for operations
 # Next I sort my data, I create one dictionary for flower photos and change all images in one category into list 
+
 # Now I create dictionary for labels of my flowers types, so I assign number for every type
+
 # Then I call my object to check if everything works good and now its time to resize my images
 # Now I create function which task is to get acces to images in my dict and then resize every image and append ready images and their labels into lists
 # So first i create two lists, then make for loop on flower names and images in my dictionary with acces to items 
 # I use "cv2.imread" to get access to images and save this operation as "img"
 # Then I use "cv2.resize" and put "in variable" and then new sage of my all images
 # And I fill my two lists with my images of new size and their labels, I change this list into numpy array
+
 # Now when my data is preprocessed i can "train_test_split" and get train and test set
 # I also scale my X_train and X_test to use it in training and evaluation 
 # I plot three first images to get idea of my data, previous resize them 
