@@ -1,4 +1,4 @@
-Transfer Learning to Classification
+TRANSFER LEARNING TO CLASSIFICATION
 
-![](https://github.com/JakubTabor/Jakub_Portfolio/blob/main/images/transfer_learning.png)
+![](https://github.com/JakubTabor/Transfer_Learning_Deep_Learning/blob/main/images/image.png)
 
