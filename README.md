@@ -1,3 +1,4 @@
 Transfer Learning to Classification
 
-![Uploading image.png…]()
+![](https://github.com/JakubTabor/Jakub_Portfolio/blob/main/images/transfer_learning.png)
+
