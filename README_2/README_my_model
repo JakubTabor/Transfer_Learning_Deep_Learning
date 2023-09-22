@@ -14,10 +14,10 @@
 * And I fill my two lists with my images of new size and their labels, I change this list into numpy array
 
 # Now when my data is preprocessed i can "train_test_split" and get train and test set
-# I also scale my X_train and X_test to use it in training and evaluation 
+* I also scale my X_train and X_test to use it in training and evaluation 
 
 # I plot three first images to get idea of my data, previous resize them 
-# I check shape of image, it will be input shape in my model, and also check the shape after flattening, looks huge
+* I check shape of image, it will be input shape in my model, and also check the shape after flattening, looks huge
 
 # Now I gonna build model with keras Sequential, so I start with passing first Convolutional 2D layer
 # I set number of filters, so feature detectors at 32, then "kernel_size " will be 3 by 3, activation will be relu and I pass "IMAGE_SHAPE" 
