@@ -20,9 +20,9 @@
 * I check shape of image, it will be input shape in my model, and also check the shape after flattening, looks huge
 
 # Now I gonna build model with keras Sequential, so I start with passing first Convolutional 2D layer
-# I set number of filters, so feature detectors at 32, then "kernel_size " will be 3 by 3, activation will be relu and I pass "IMAGE_SHAPE" 
-# And add additional third dimension and now I have shape of image, then I use "MaxPooling2D" after layer to reduce computation
-# It gonna take  the maximum value over an input window
+* I set number of filters, so feature detectors at 32, then "kernel_size " will be 3 by 3, activation will be relu and I pass "IMAGE_SHAPE" 
+* And add additional third dimension and now I have shape of image, then I use "MaxPooling2D" after layer to reduce computation
+* It gonna take  the maximum value over an input window
 
 # Then I pass another Convolutional 2D layer, this time with 64 filter detectors, number of filters is hyperparameter
 # And i pass pull layer also after this Conv2D layer, then I flatten all convolutional layers to fit into shape of my neural network
