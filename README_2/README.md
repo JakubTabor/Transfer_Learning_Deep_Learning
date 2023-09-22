@@ -26,3 +26,52 @@
 # I check also some predictions, previously converting predicted numbers into max. arguments
 * Transfer model perform so good in comparison with my previous model which was much more complicated
 * It is very powerful tool to use in case of big and complicated dataset, it save a lot of time and computation power
+
+**MY MODEL**
+
+* This is deeper description of my transfer learning model, with more analyze and plot graphs
+
+# First I load my data like previous, I save url, then get file with flower photos, save it in directory and unzip 
+* Then I import pathlib and change my data using "pathlib.Path", now its ready for operations
+* Next I sort my data, I create one dictionary for flower photos and change all images in one category into list 
+
+# Now I create dictionary for labels of my flowers types, so I assign number for every type
+* Then I call my object to check if everything works good and now its time to resize my images
+
+# Now I create function which task is to get acces to images in my dict and then resize every image and append ready images and their labels into lists
+* So first i create two lists, then make for loop on flower names and images in my dictionary with acces to items 
+* I use "cv2.imread" to get access to images and save this operation as "img"
+* Then I use "cv2.resize" and put "in variable" and then new sage of my all images
+* And I fill my two lists with my images of new size and their labels, I change this list into numpy array
+
+# Now when my data is preprocessed i can "train_test_split" and get train and test set
+* I also scale my X_train and X_test to use it in training and evaluation 
+
+# I plot three first images to get idea of my data, previous resize them 
+* I check shape of image, it will be input shape in my model, and also check the shape after flattening, looks huge
+
+# Now I gonna build model with keras Sequential, so I start with passing first Convolutional 2D layer
+* I set number of filters, so feature detectors at 32, then "kernel_size " will be 3 by 3, activation will be relu and I pass "IMAGE_SHAPE" 
+* And add additional third dimension and now I have shape of image, then I use "MaxPooling2D" after layer to reduce computation
+* It gonna take  the maximum value over an input window
+
+# Then I pass another Convolutional 2D layer, this time with 64 filter detectors, number of filters is hyperparameter
+* And i pass pull layer also after this Conv2D layer, then I flatten all convolutional layers to fit into shape of my neural network
+* After flattening i pass two Dense layers, I don't need to set big number of neurons because my convolutional layers, will do much of the work
+
+# And I add Dropout layers after every Dense layer for better final accuracy, it will drop pass value of neurons 
+* I put last Dense layer with 5 neurons, because I have 5 classes and activation sigmoid 
+
+# Now I can compile my model, with optimizer as adam, loss as "sparse_categorical_crossentropy" because my output is direct value
+* If i convert it into categorical i use "categorical_crossentropy"
+* I want to plot later performance of my model, so I save training process as history and add additional "validation_split" to see it during the training
+* My data is complicated and I don't use data augmentation so i get after evaluation 0.63 which is still not that bad 
+* And I save model evaluation as scores, I also print with a pretty way using metrics and model score is percents 
+
+# Then I print history to check what parameters i can plot on graph
+* First i plot accuracy during training and accuracy growth during testing my model performance
+* And look how my accuracy inprove with each epoch 
+* I also plot loss of my model, during training and testing, I see downward trend with each epoch, so its good
+
+# My model its not perfect, but we can notice the right trend on the graph
+* I also check predictions with predictions of my model and true values, I need to change predicted values to argmax, to be i right range
