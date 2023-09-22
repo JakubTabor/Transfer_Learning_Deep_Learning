@@ -1,1 +1,28 @@
+ Now I gonna describe i details how function transfer model
 
+# First i load pretrained model and save it as "feature_extractor_model"
+
+* Then i use "hub.KerasLayer" and put inside first my model, then the shape and disable the training, so I froze it during the training
+* I save it as "pretrained_model_without_top_layer" and I gonna use it in keras model  
+
+# Now I gonna create keras model to train it on my flowers dataset, with help of pretrained model 
+
+* So first i stop number of classes as variable, then I create keras model and put as a layer "pretrained_model_without_top_layer"
+* Then I put also Dense layer with number of classes and look at summary of this model 
+* We can see that the transfer model was trained on over 2 000 000 elements, so we can expect that it can handle the task very good
+* We can also see that in summary there are Trainable and Non-trainable params, it means that froze of layer works 
+* And our data for training include 6,405 elements
+
+# Now I compile my model with optimizer as adam, then my loss will be "SparseCategoricalCrossentropy" and metrics in accuracy
+* Then I train my model and set number of epochs at 5, I save history of my training as "history 2" to plot it later
+* I can see that perforamnce of my model is very good, with five epochs i get very good accuracy
+* And my model is very simple, I don't need to build model with many layers to get nice accuracy
+
+# After evaluation I get accuracy 0.88, which is very good, I print it with a pretty way
+* Then I print keys to see what I can plot on graph 
+* And I plot first accuracy of my model, I see growing trend which is a good sign 
+* Then I plot loss history during training and testing and see downward trend, so everything is alright
+
+# I check also some predictions, previously converting predicted numbers into max. arguments
+* Transfer model perform so good in comparison with my previous model which was much more complicated
+* It is very powerful tool to use in case of big and complicated dataset, it save a lot of time and computation power
