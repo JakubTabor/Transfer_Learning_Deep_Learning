@@ -76,6 +76,8 @@
 # My model its not perfect, but we can notice the right trend on the graph
 * I also check predictions with predictions of my model and true values, I need to change predicted values to argmax, to be i right range
 
+![](https://github.com/JakubTabor/Transfer_Learning_Deep_Learning/blob/main/images/transfer_learning.png)
+
 **TRANSFER LEARNING EXPLANATION**
 
 # Transfer_Learning_Deep_Learning
