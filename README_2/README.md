@@ -118,6 +118,8 @@
 * I gonna create new model which will include "pretrained model" and output layer with number of flower classes 
 * I get summary to look at my model`s structure, it looks that my pretrained model was trained on 2,257,984, when my data include only 6,405
 
+![](https://github.com/JakubTabor/Transfer_Learning_Deep_Learning/blob/main/images/Transfer_model.png)
+
 # Then I compile my model with "optimizer as adam, loss as SparseCategoricalCrossentropy and metrics as accuracy" then I set number of epochs at five
 * With only five epoch I get accuracy more than (0.9), this is the power of transfer learning 
 * After evaluating my model i get (0.88) accuracy, this is very good because i don't need so much computing power to get good accuracy
