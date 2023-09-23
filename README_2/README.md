@@ -114,6 +114,8 @@
 # Next I can import "train_test_split" and get train and test set I also now scale my images "X_train / 255 and X_test / 255"
 * I check the shape and its all right, now I gonna show thre images, then I use my model to get predictions on this images and get label of prediction
 
+![](https://github.com/JakubTabor/Transfer_Learning_Deep_Learning/blob/main/images/model_parameters.png)
+
 # Now I get url of pretrained model, set one layer and put shape of it, "trainable = False" means that it will be not trained 
 * I gonna create new model which will include "pretrained model" and output layer with number of flower classes 
 * I get summary to look at my model`s structure, it looks that my pretrained model was trained on 2,257,984, when my data include only 6,405
